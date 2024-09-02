@@ -22,19 +22,9 @@ import logoZod from './logo-zod.svg'
 
 const logos = [
   {
-    src: logoDocker,
-    alt: 'Docker',
-    href: 'https://www.docker.com/',
-  },
-  {
-    src: logoEslint,
-    alt: 'ESlint',
-    href: 'https://eslint.org/',
-  },
-  {
-    src: logoFaker,
-    alt: 'Faker',
-    href: 'https://fakerjs.dev/',
+    src: logoRemix,
+    alt: 'remix',
+    href: 'https://remix.run',
   },
   {
     src: logoFly,
@@ -42,24 +32,9 @@ const logos = [
     href: 'https://resend.com',
   },
   {
-    src: logoGithub,
-    alt: 'github',
-    href: 'https://github.com',
-  },
-  {
-    src: logoMsw,
-    alt: 'msw',
-    href: 'https://mswjs.io',
-  },
-  {
-    src: logoPlaywright,
-    alt: 'playwright',
-    href: 'https://playwright.dev/',
-  },
-  {
-    src: logoPrettier,
-    alt: 'prettier',
-    href: 'https://prettier.io',
+    src: logoSqlite,
+    alt: 'sqlite',
+    href: 'https://sqlite.org',
   },
   {
     src: logoPrisma,
@@ -67,19 +42,14 @@ const logos = [
     href: 'https://prisma.io',
   },
   {
-    src: logoRadix,
-    alt: 'Radix',
-    href: 'https://www.radix-ui.com/',
+    src: logoZod,
+    alt: 'zod',
+    href: 'https://zod.dev/',
   },
   {
-    src: logoReactEmail,
-    alt: 'react-email',
-    href: 'https://react.email',
-  },
-  {
-    src: logoRemix,
-    alt: 'remix',
-    href: 'https://remix.run',
+    src: logoGithub,
+    alt: 'github',
+    href: 'https://github.com',
   },
   {
     src: logoResend,
@@ -87,19 +57,9 @@ const logos = [
     href: 'https://resend.com',
   },
   {
-    src: logoSentry,
-    alt: 'sentry',
-    href: 'https://sentry.io',
-  },
-  {
-    src: logoShadcn,
-    alt: 'shadcn',
-    href: 'https://ui.shadcn.com/',
-  },
-  {
-    src: logoSqlite,
-    alt: 'sqlite',
-    href: 'https://sqlite.org',
+    src: logoReactEmail,
+    alt: 'react-email',
+    href: 'https://react.email',
   },
   {
     src: logoTailwind,
@@ -107,14 +67,29 @@ const logos = [
     href: 'https://tailwindcss.com',
   },
   {
-    src: logoTestingLibrary,
-    alt: 'testing-library',
-    href: 'https://testing-library.com',
+    src: logoRadix,
+    alt: 'Radix',
+    href: 'https://www.radix-ui.com/',
   },
   {
-    src: logoTs,
-    alt: 'type-script',
-    href: 'https://typescriptlang.org',
+    src: logoShadcn,
+    alt: 'shadcn',
+    href: 'https://ui.shadcn.com/',
+  },
+  {
+    src: logoPlaywright,
+    alt: 'playwright',
+    href: 'https://playwright.dev/',
+  },
+  {
+    src: logoMsw,
+    alt: 'msw',
+    href: 'https://mswjs.io',
+  },
+  {
+    src: logoFaker,
+    alt: 'Faker',
+    href: 'https://fakerjs.dev/',
   },
   {
     src: logoVitests,
@@ -122,9 +97,34 @@ const logos = [
     href: 'https://vitest.dev',
   },
   {
-    src: logoZod,
-    alt: 'zod',
-    href: 'https://zod.dev/',
+    src: logoTestingLibrary,
+    alt: 'testing-library',
+    href: 'https://testing-library.com',
+  },
+  {
+    src: logoDocker,
+    alt: 'Docker',
+    href: 'https://www.docker.com/',
+  },
+  {
+    src: logoTs,
+    alt: 'type-script',
+    href: 'https://typescriptlang.org',
+  },
+  {
+    src: logoPrettier,
+    alt: 'prettier',
+    href: 'https://prettier.io',
+  },
+  {
+    src: logoEslint,
+    alt: 'ESlint',
+    href: 'https://eslint.org/',
+  },
+  {
+    src: logoSentry,
+    alt: 'sentry',
+    href: 'https://sentry.io',
   },
 ]
 
