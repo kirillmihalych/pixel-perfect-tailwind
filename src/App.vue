@@ -31,15 +31,23 @@ const findClass = (classes) => classes
           The <span class="text-highlight">Epic</span> Stack
         </h1>
         <p class="text-slate-600 mt-4 max-w-md sm:text-lg md:text-xl md:mt-6">
-          Check the <a href="#" class="text-black underline">Getting Started</a> guide file for how to get your project
-          off the ground!
+          Check the
+          <a
+            href="#"
+            class="text-black underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-highlight"
+            >Getting Started</a
+          >
+          guide file for how to get your project off the ground!
         </p>
       </header>
       <ul
         class="flex justify-center flex-wrap gap-2 max-w-3xl sm:grid-cols-4 sm:gap-4 md:grid-cols-6 lg:grid-cols-7 xl:grid xl:grid-cols-5 xl:grid-rows-6 xl:grid-flow-col"
       >
         <li v-for="logo in logos" :key="logo.href" :class="findClass([cols[logo.column], rows[logo.row]])">
-          <a :href="logo.href" class="grid size-20 place-items-center rounded-2xl p-4 bg-highlight/[7%] sm:size-24">
+          <a
+            :href="logo.href"
+            class="grid size-20 place-items-center rounded-2xl p-4 bg-highlight/[7%] hover:bg-highlight/[10%] hover:-rotate-6 transition focus:outline-none focus:ring-2 focus:ring-highlight focus:ring-offset-2 sm:size-24"
+          >
             <img :src="logo.src" :alt="logo.alt" />
           </a>
         </li>
